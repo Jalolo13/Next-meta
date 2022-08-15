@@ -1,0 +1,56 @@
+.section__blocks
+    div
+        &:first-child
+            display: flex
+            justify-content: center
+            width: 100%
+
+.section__blocks_inner
+    display: flex
+    width: 100%
+    
+.section__blocks_list_item
+    width: 282px
+    height: 72px
+    display: flex
+    align-items: center
+    padding-left: 28px
+    cursor: pointer
+    transition: .3s
+    font-family: 'DM Mono', monospace
+    &.active
+        color: #8DFD1B
+        text-decoration: underline
+        background: #222222
+
+.section__blocks_title
+    text-transform: uppercase
+    font-family: 'Audiowide', cursive
+    font-size: 38px
+    line-height: 45px
+    &:nth-child(2)
+        color: #A8A8A8
+        
+.section__blocks_content
+    padding: 60px
+    background: #222222
+    display: flex
+    width: 878px
+    display: none
+    min-height: 538px
+    &.activeBlock
+        display: flex
+
+.section__blocks_content_text
+    max-width: 550px
+    font-size: 16px
+    margin-left: 40px
+    line-height: 26px
+    p
+        &:first-child
+            font-size: 21px
+            line-height: 32px
+            padding-left: 22px
+            font-family: 'DM Mono', monospace
+            color:#8DFD1B
+            border-left: 2px solid #8dfd1b
