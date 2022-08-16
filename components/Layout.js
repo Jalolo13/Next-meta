@@ -4,6 +4,8 @@ import SectionCards from "./SectionCards";
 import SectionAboutCard from "./SectionAboutCard";
 import SectionArtists from "./SectionArtists";
 import SectionBlocks from "./SectionBlocks";
+import SectionRoadMap from "./SectionRoadMap";
+import OurPartners from "./OurPartners";
 
 const Layout = () => {
     return (
@@ -13,6 +15,8 @@ const Layout = () => {
             <SectionAboutCard />
             <SectionArtists />
             <SectionBlocks />
+            <SectionRoadMap />
+            <OurPartners />
             <Footer />
         </>
     );
